@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+body {
+	background-color: #ffffff;
+	line-height: 1.6;
+	font-size: 0.875em;
+	font-family: "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight: bold;
+	color:#000000;
+}
+
+a {
+	display: block;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+/* フロート　クリア */
+.clear {
+	clear: both;
+}
+
+/* ラッパー */
+#wrapper {
+	background-color: #ffffff;
+	width: 960px;
+	margin: 0px auto;
+}
+
+/* コンテナ */
+#container {
+	padding: 10px 10px;
+}
+
+/* ヘッダー */
+#header {
+
+}
+
+h1 {
+	float: left;
+	margin-right: 20px;
+}
+
+#header ul {
+	border: 1px solid #000000;
+	float: right;
+	margin-bottom: 3px;
+}
+
+#header li {
+	display: inline;
+}
+
+#header a:hover {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+ul a {
+	float: left;
+	font-size: 15px;
+	padding: 0 5px 0 5px;
+}
+
+/* コンテンツ */
+#contents {
+	border: 1px solid #000000;
+	width: 778px;
+	margin-left: 160px;
+}
+
+#contents h2 {
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 2.0em;
+}
+
+#contents p {
+	text-indent: 1em;
+}
+
+#contents .inner {
+	padding: 1em 1em;
+}
+
+#contents .inner p {
+	margin-bottom: 1em;
+}
+
+/* フロートクリア */
+#clearfloat {
+	clear: both;
+}
+
+/* フッター */
+#footer {
+	border: 1px solid #000000;
+	padding: 28px 0 28px 10px;
+	width: 770px;
+	margin-left: 170px;
+}
